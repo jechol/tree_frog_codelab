@@ -27,5 +27,7 @@ defmodule TreeFrogTest do
   test "complex calc" do
     assert 30 == TreeFrog.calc(10 - 10 / 2)
     assert 40 == TreeFrog.calc((10 - 10) / 2)
+
+    assert 12 == TreeFrog.calc((10 - 10) + (2 / 4))
   end
 end
